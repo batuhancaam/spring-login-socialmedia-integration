@@ -16,7 +16,7 @@ public class BaseProvider {
 	private Google google;
 	private ConnectionRepository connectionRepository;
 	
-	public  BaseProvider(Facebook facebook,Google google,  LinkedIn linkedIn, ConnectionRepository connectionRepository) {
+	public  BaseProvider(Facebook facebook,Google google,ConnectionRepository connectionRepository) {
 		this.facebook = facebook;
 		this.connectionRepository = connectionRepository;
 		this.google=google; 
